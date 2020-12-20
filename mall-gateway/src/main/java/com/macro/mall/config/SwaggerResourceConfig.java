@@ -15,6 +15,7 @@ import java.util.List;
 
 /**
  * swagger资源配置类
+ * 用于聚合其他微服务中swagger的api-docs访问路径
  * @Author Zhangnana
  * @DATE 2020/12/13 22:13
  * @Version 1.0

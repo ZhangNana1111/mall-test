@@ -23,7 +23,7 @@ public class UserDTO {
     private String password;
     private Integer status;
     private String clientID;
-    private List<String> rules;
+    private List<String> roles;
 
 
     public static void main(String[] args) {
