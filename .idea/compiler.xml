@@ -10,12 +10,14 @@
         <module name="mall-auth" />
         <module name="mall-common" />
         <module name="mall-algorithm" />
+        <module name="mall-admin" />
         <module name="mall-gateway" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mall-admin" options="-parameters" />
       <module name="mall-algorithm" options="-parameters" />
       <module name="mall-auth" options="-parameters" />
       <module name="mall-common" options="-parameters" />
